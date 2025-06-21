@@ -1,0 +1,15 @@
+class p3
+{
+	public static void main(String[] args) 
+	{
+		String str="heelhloh";
+		for(int i=0;i<str.length();i++)
+		{
+		char c=str.charAt(i);
+			if(c=='h')
+			{
+				System.out.println(c);
+	         }
+         }
+	}
+}

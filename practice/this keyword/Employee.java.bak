@@ -1,0 +1,25 @@
+class Employee
+{
+String emp_id;
+int emp_sal;
+String emp_grade;
+Employee(String emp_id,int emp_salary,String emp_grade)
+{
+this.emp_id=emp_id;
+this.emp_sal=emp_sal;
+this.emp_grade=emp_grade;
+return;
+}
+public static void main(String[] args)
+{
+Employee E1=new Employee("PES004",30000,"Senior Manager");
+System.out.println(E1.emp_id);
+System.out.println(E1.emp_sal);
+System.out.println(E1.emp_grade);
+}
+}
+
+//emp_id
+//emp_sal
+//emp_grade
+
